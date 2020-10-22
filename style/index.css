@@ -43,6 +43,9 @@ h3{
     display: none;
     text-align: center;
 }
+.up{
+    padding-top: 40%;
+}
 @media screen and (max-width: 480px) {
   h1{
       font-size: 1em;
