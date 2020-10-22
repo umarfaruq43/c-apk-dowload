@@ -30,6 +30,10 @@ h1{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.445);
 }
+h3{
+    text-align: center;
+    display: inline;
+}
 .final{
     position: absolute;
     top: 0;
