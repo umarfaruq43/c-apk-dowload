@@ -1,0 +1,54 @@
+
+body, html {height: 100%}
+
+.bgimg {
+    
+    background-image: url(../img/cat.jpg);
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+h1{
+    font-size: m;
+}
+
+.col{
+    background-color: purple;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.col:hover{
+    color: green;
+    background-color: #000;
+    outline: none;
+}
+.dim{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+.final{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.658);
+    display: none;
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+  h1{
+      font-size: 1em;
+  }
+  .foot{
+      font-size: 0.9em;
+      text-align: center;
+
+  }
+  .final{
+      font-size: 0.9em;
+  }
+}

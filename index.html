@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ qucik learn app</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/w3.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="icon/css/all.min.css">
+</head>
+
+<body>
+    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+       <div class="dim">
+            <div class="w3-display-topleft  w3-xlarge">
+                <img src="img/logo.png" alt="" width="20%" class="">
+            </div>
+            <div class="w3-display-middle ">
+                <a href="file/C++ Offline Tutorial.apk" download class="btn col" id="load">
+                    <h1> <i class="fas fa-download"></i> Download </h1>
+                </a>
+            </div>
+            <div class="w3-display-bottomleft w3-padding-large foot">
+                Copyright &copy; 2020 Umar Faruq. All rights reserved.
+            </div>
+            <div class="final  " id="download">
+                <h2>Your File is downloading....
+                </h2>
+            </div>
+       </div>
+    </div>
+    <script>
+        document.getElementById("load").onclick = function(){
+            document.getElementById("download").style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
